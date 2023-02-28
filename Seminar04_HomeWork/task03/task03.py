@@ -2,5 +2,4 @@
 # которая выведет список неповторяющихся элементов исходной последовательности.
 
 sequence = [2, 10, 5, 2, 4, 7, 10, 2, 2, 8]
-set_of_sequence = set(sequence)
-print(set_of_sequence)
+print(set(sequence))
