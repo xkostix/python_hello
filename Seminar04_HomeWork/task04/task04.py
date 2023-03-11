@@ -10,7 +10,7 @@ k = int(input("Степень: "))
 resultat = ''
 coeff_list = list()
 
-for i in reversed(range(k+1)):
+for i in reversed(range(k+1)):  # вариант вместо reversed: "range(k, -1, -1)"
     coeff = random.randrange(0, 11)
     if i != 0:
         if coeff != 0:
