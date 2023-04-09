@@ -5,7 +5,7 @@
 # - 1 -> нет
 
 day = int(input('Введите номер дня: '))
-if day == 6 or day == 7:
+if day == 6 or day == 7:  # лучше day in (6, 7)
     print('Да, выходной!')
 elif day > 0 and day < 6:
     print('Нет, не выходной.')
