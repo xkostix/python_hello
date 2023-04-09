@@ -16,10 +16,9 @@ def inputList(my_list):
 
 def count_spec_elem(my_list):
     count_elem = 0
-    for i in range(len_of_list1):
-        if i not in (0, len_of_list1 - 1):
-            if my_list[i-1] < my_list[i] and my_list[i+1] < my_list[i]:
-                count_elem += 1
+    for i in range(1, len_of_list1-1):
+        if my_list[i-1] < my_list[i] > my_list[i+1]:
+            count_elem += 1
     return count_elem
 
 
